@@ -1,0 +1,12 @@
+body{
+	background-color: "blue"
+}
+.cool{
+	width:100px;
+	height: 100px;
+	background-color: green;
+	trnasition: background-color 1s;
+}
+.cool.red{
+	background-color: red;
+}

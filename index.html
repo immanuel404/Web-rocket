@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rocket Launch</title>
+	<link rel="stylesheet" type="text/css" href="css/rocket.css">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="java/rocket.js"></script>
+</head>
+</head>
+<body>
+<body class="body-state1">
+	<div class="left">
+	<div class="interface state1">
+		<h1>"THE STARS WILL NEVER BE WON BY LITTLE MINDS, WE MUST BE BIG AS SPACE ITSELF."_R. Heinlein</h1>
+		<a href="#" class="button" onclick="changeState(2);"><b>LAUNCH <br> SEQUENCE<b/></a>
+	</div>
+	<div class="interface state2">
+		<h1 style="font-size: 70px;" id="countdown"><br>10></br></h1>
+		<a href="#" onclick="changeState(1);">ABORT MISSION!</a>
+	</div>
+	<div class="interface state3">
+		<h1>Lift Off!</h1>
+	</div>
+	<div class="interface state4">
+		<h1>Well done!</h1>
+		<a href="#" class="button" onclick="changeState(1);">RE-LAUNCH!</a>
+	</div>
+	<div class="interface state5">
+		<h1>Oh No!!!</h1>
+		<a href="#" class="button" onclick="changeState(1);">TRY-AGAIN!</a>
+	</div>
+		<h2 style="color: grey; position: relative; font-size: 20px; margin-top: 340px; margin-left: 10px">By: Emmanuel O.</h2>
+	<div class="right">
+		<div class="ground"></div>
+		<div class="rocket"></div>
+		<div class="nervous" id="nervous"></div>
+		<div class="cant-wait" id="cant-wait"></div>
+	</div>
+
+</body>
+</html>
